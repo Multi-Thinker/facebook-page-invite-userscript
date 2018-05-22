@@ -19,7 +19,7 @@ for(var i=0; i<=document.querySelectorAll('._5i_q span ._42ft:not(._42fr):not(._
 }
 function Inviter(i,l){
      console.log("Invited "+ parseInt(i+1) +" Out of "+l);
-     appendHTML(document.querySelector(".status_mt"),"<p>Invited "+ i +" Out of "+l+"</p>");
+     appendHTML(document.querySelector(".status_mt"),"<p>Invited "+ parseInt(i+1) +" Out of "+l+"</p>");
      if(parseInt(i+1)==l){
          console.log("Trigger new");
          appendHTML(document.querySelector(".status_mt"),"<p>Reached End of Block</p>");
